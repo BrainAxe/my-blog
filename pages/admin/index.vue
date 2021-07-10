@@ -27,12 +27,12 @@ export default {
   },
   computed: {
     loadedPosts() {
-      return this.$store.getters.loadedPosts;
+      return this.$store.getters['posts/loadedPosts'];
     }
   },
   methods: {
     onLogout() {
-      this.$store.dispatch('logout');
+      this.$store.dispatch('auth/logout');
       this.$router.push('/admin/auth');
     }
   }

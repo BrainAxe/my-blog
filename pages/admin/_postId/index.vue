@@ -33,7 +33,7 @@ export default {
   methods: {
     onSubmitted(editedPost) {
       this.$store
-        .dispatch('editPost', editedPost)
+        .dispatch('posts/editPost', editedPost)
         .then(() => {
           this.$router.push('/admin');
         })
