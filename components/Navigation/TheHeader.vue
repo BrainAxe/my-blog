@@ -3,7 +3,7 @@
   <header class="the-header">
     <TheSideNavToggle @toggle="$emit('sidenavToggle')" />
     <div class="logo">
-      <nuxt-link to="/">WD BLOG</nuxt-link>
+      <nuxt-link to="/">T3CH SAVVY</nuxt-link>
     </div>
     <div class="spacer"></div>
     <div class="navigation-items">
