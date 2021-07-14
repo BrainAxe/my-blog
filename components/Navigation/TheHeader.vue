@@ -41,7 +41,8 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
+  background-color: #00897b;
+  font-weight: 700;
   z-index: 100;
   box-sizing: border-box;
   padding: 0 20px;
@@ -84,12 +85,12 @@ export default {
 
 .nav-item a {
   text-decoration: none;
-  color: white;
+  color: #e0e0e0c2;
 }
 
 .nav-item a:hover,
 .nav-item a:active,
 .nav-item a.nuxt-link-active {
-  color: red;
+  color: #fafafa;
 }
 </style>
