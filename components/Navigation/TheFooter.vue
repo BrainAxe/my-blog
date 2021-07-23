@@ -17,7 +17,6 @@ export default {
 footer {
   width: 100%;
   position: absolute;
-  bottom: 0;
   text-align: center;
 }
 </style>
