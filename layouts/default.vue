@@ -2,8 +2,8 @@
   <div>
     <TheHeader @sidenavToggle="displaySidenav = !displaySidenav" />
     <TheSidenav :show="displaySidenav" @close="displaySidenav = false"/>
-    <TheFooter />
     <nuxt/>
+    <TheFooter />
   </div>
 </template>
 
