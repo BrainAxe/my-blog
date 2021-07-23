@@ -2,6 +2,7 @@
   <div>
     <TheHeader @sidenavToggle="displaySidenav = !displaySidenav" />
     <TheSidenav :show="displaySidenav" @close="displaySidenav = false"/>
+    <TheFooter />
     <nuxt/>
   </div>
 </template>
@@ -9,11 +10,13 @@
 <script>
 import TheHeader from '@/components/Navigation/TheHeader.vue';
 import TheSidenav from '@/components/Navigation/TheSidenav.vue';
+import TheFooter from '@/components/Navigation/TheFooter.vue';
 
 export default {
   components: {
     TheHeader,
-    TheSidenav
+    TheSidenav,
+    TheFooter
   },
   data() {
     return {
@@ -25,10 +28,11 @@ export default {
 
 <style>
   html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
   }
 
   body {
+    font-family: 'Open Sans', sans-serif !important;
     margin: 0;
   }
 </style>

@@ -6,7 +6,7 @@
         :style="{ backgroundImage: 'url(' + thumbnail + ')' }"
       ></div>
       <div class="post-content">
-        <h1>{{ title }}</h1>
+        <h5>{{ title }}</h5>
         <p>{{ previewText }}</p>
       </div>
     </article>

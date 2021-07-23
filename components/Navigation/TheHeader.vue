@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
 .header-container {
-  height: 60px;
+  height: 59px;
 }
 
 .the-header {
@@ -41,7 +41,7 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #00897b;
+  background-color: #845EC2;
   font-weight: 700;
   z-index: 100;
   box-sizing: border-box;
