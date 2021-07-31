@@ -5,7 +5,7 @@
 
     <!-- Author -->
     <p class="lead">
-      <a href="#">{{ loadedPost.author }}</a>
+      <b>{{ loadedPost.author }}</b>
     </p>
 
     <hr />
